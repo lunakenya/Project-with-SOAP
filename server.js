@@ -72,3 +72,4 @@ app.listen(3000, () => {
   soap.listen(app, "/soap", service, wsdl);
   console.log("SOAP service running on http://localhost:3000/soap");
 });
+
