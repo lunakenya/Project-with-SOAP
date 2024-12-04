@@ -9,45 +9,51 @@ This project is a basic "Hello, World!" implementation using SOAP in Node.js. It
 
 # Features
 
-    - SOAP Protocol: A structured protocol for web services using XML.
-    - Express Integration: The SOAP server is hosted using the Express framework.
-    - Simple Hello, World! Example: Exposes a SOAP service with a method sayHello that takes a name and returns a greeting.
-    - Local & Public Access: The service can be tested locally or publicly through Ngrok.
+- SOAP Protocol: A structured protocol for web services using XML.
+- Express Integration: The SOAP server is hosted using the Express framework.
+- Simple Hello, World! Example: Exposes a SOAP service with a method sayHello that takes a name and returns a greeting.
+- Local & Public Access: The service can be tested locally or publicly through Ngrok.
 
 # Requirements
 
-    - Node.js: Version 14 or higher
-    - NPM: Version 6 or higher
-    - SOAP-UI or any client capable of sending SOAP requests
+- Node.js: Version 14 or higher
+- NPM: Version 6 or higher
+- SOAP-UI or any client capable of sending SOAP requests
     
 
 # Installation
 
-    Clone this repository:
+ Clone this repository:
 
 ```bash
 git clone 
 ```
 
 Navigate to the project directory:
+
 ```bash
 cd tu-repositorio
 ```
+
 Install dependencies:
+
 ```bash
     npm install
 ```
+
 Running the Application
 
-    Start the SOAP Server
+Start the SOAP Server
 
-    Run the server locally:
+ - Run the server locally:
+   
 ```bash
 node server.js
 ```
+
 The server will start and expose the SOAP service at:
 
-    Local: 
+Local: 
     ```bash
     http://localhost:3000/soap
     ```
@@ -69,4 +75,5 @@ Use a SOAP client (e.g., SOAP-UI or Postman) to send a request to the service. E
 </soapenv:Envelope>
 ```
 Expected response:
+![imagen](https://github.com/user-attachments/assets/cbf06257-c6b6-4646-9ff5-3c323ce16e86)
 
