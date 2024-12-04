@@ -63,7 +63,7 @@ Use a SOAP client (e.g., SOAP-UI or Postman) to send a request to the service. E
     <soapenv:Header/>
     <soapenv:Body>
         <tns:sayHelloRequest>
-            <name>Kenya </name>
+            <name>Kenya</name>
         </tns:sayHelloRequest>
     </soapenv:Body>
 </soapenv:Envelope>
