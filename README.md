@@ -55,13 +55,13 @@ The server will start and expose the SOAP service at:
 
 Local: 
 
-    ```bash
+```bash
     http://localhost:3000/soap
-    ```
+```
     
-    ```bash
+```bash
     WSDL: http://localhost:3000/soap?wsdl
-    ```
+```
 
 # Test the SOAP Service
 
