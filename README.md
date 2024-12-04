@@ -26,7 +26,7 @@ This project is a basic "Hello, World!" implementation using SOAP in Node.js. It
  Clone this repository:
 
 ```bash
-git clone 
+git clone https://github.com/lunakenya/Project-with-SOAP.git
 ```
 
 Navigate to the project directory:
